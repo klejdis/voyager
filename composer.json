@@ -1,5 +1,5 @@
 {
-    "name": "tcg/voyager",
+    "name": "klejdis/voyager",
     "description": "A Laravel Admin Package ",
     "keywords": ["laravel", "admin", "panel"],
     "license": "MIT",
