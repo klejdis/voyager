@@ -13,6 +13,10 @@ class AddVoyagerUserFields extends Migration
             if (!Schema::hasColumn('users', 'avatar')) {
                 $table->string('avatar')->nullable()->after('email')->default('users/default.png');
             }
+
+            if (!Schema::hasColumn('users', 'active')) {
+                $table->boolean('active')->default(1)->after('email');
+            }
             $table->integer('role_id')->nullable()->after('id');
         });
     }

@@ -25,6 +25,7 @@ return [
         'seo_title'        => 'SEO Title',
         'slug'             => 'Slug',
         'status'           => 'Status',
+        'active'           => 'Active',
         'title'            => 'Title',
         'updated_at'       => 'Updated At',
     ],
